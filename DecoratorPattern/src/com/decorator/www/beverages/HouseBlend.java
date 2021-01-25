@@ -11,6 +11,14 @@ public class HouseBlend extends Beverage {
 
     @Override
     public double cost() {
-        return .89 + super.cost();
+        double cost = 2.50 + super.cost();
+        if (super.getSize() == Size.TALL){
+            cost += .10;
+        }else if(super.getSize() == Size.GRANDE){
+            cost += .15;
+        }else if(super.getSize() == Size.VENTI){
+            cost += .20;
+        }
+        return cost;
     }
 }
