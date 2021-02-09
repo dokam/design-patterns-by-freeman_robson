@@ -1,4 +1,5 @@
 import Igredients.*;
+import Igredients.Veggies;
 
 public class NYPizzaIgredientFactory implements PizzaIngredientFactory {
     @Override
@@ -18,7 +19,7 @@ public class NYPizzaIgredientFactory implements PizzaIngredientFactory {
 
     @Override
     public Veggies[] createVeggies() {
-        return new Veggies[4];
+        return new Veggies[3];
     }
 
     @Override

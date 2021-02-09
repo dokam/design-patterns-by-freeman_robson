@@ -1,5 +1,6 @@
 
 import Igredients.*;
+import Igredients.Veggies;
 
 import java.util.ArrayList;
 
@@ -7,7 +8,7 @@ public abstract class Pizza {
     String name;
     Dough dough;
     Sauce sauce;
-    Veggies veggies[];
+    Veggies[] veggies;
     Cheese cheese;
     Pepperoni pepperoni;
     Clams clam;

@@ -1,4 +1,5 @@
 import Igredients.*;
+import Igredients.Veggies;
 
 public interface PizzaIngredientFactory {
     public Dough createDough();

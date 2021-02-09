@@ -1,4 +1,5 @@
 import Igredients.*;
+import Igredients.Veggies;
 
 public class ChicagoPizzaIgredientFactory implements PizzaIngredientFactory {
     @Override
